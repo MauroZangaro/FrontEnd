@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+
+}
+body{
+margin:0;
+padding: 0;
+
+
+}
+#Imagen {
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 40%;
+}
+
+h1 {
+    background-color: rgb(153, 153, 153);
+    color: purple;
+}
+
+.DatosPersonales{
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    
+    color: purple;
+    letter-spacing: 10px;
+    background-color:  rgb(153, 153, 153);
+    font-size: 20px;
+
+}
+
+footer{
+    background-color: #005677;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+footer span{
+    margin: 0 55px;
+}
