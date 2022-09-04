@@ -1,0 +1,263 @@
+/*Estilo de css*/
+/*body general*/
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto";
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*header titulos*/
+
+.headerSection1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d1891c;
+}
+
+.descuento {
+  height: 2vh;
+  margin: 2% 0% 5% 3%;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.headerSection2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4vh;
+  color: white;
+  background-color: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.Card {
+  margin-left: 2vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 47px;
+}
+
+/*Main general*/
+
+.cajaNone {
+  display: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*objetos de main*/
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cajas {
+  border-radius: 5%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 10px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 670px;
+  width: 390px;
+}
+
+/*BackgroundImagen*/
+
+.background {
+  background-image: url(../img/FondoBatman.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  background-image: url(../img/FondoWonder.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.background3 {
+  background-image: url(../img/FondoSuperman.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*Images*/
+
+.perfil {
+  width: 30%;
+  border-radius: 100%;
+  margin-bottom: 8%;
+}
+
+.perfilSup {
+  display: none;
+}
+
+.Corazon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 2vh;
+  width: 5vw;
+}
+
+/*Texto*/
+
+.parrafo {
+  font-size: 1.2rem;
+  margin: 0 5% 0 5%;
+}
+
+.titulin {
+  margin: 0 0 0 0;
+}
+
+/*Botones*/
+
+.boton {
+  background: #00669f;
+  padding: 20px 50px;
+  margin-bottom: 5%;
+  color: #f3f3f3;
+  font-size: 1.2rem;
+}
+
+.boton2 {
+  left: 44%;
+  position: relative;
+  background: #00669f;
+  padding: 13px 20px;
+  color: #f3f3f3;
+  font-size: 1.2rem;
+  border-radius: 100%;
+}
+
+
+/*footer*/
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669f;
+  color: #fff9f9;
+
+}
+
+.foot{
+  margin: 0 0 0 5%;
+  font-size: 70%;
+  width: 60vw;
+  
+  
+}
+
+.logoGit{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 30%;
+}
+
+.logo{
+    width: 52%;
+
+
+}
+
+
+
+/*Querrys*/
+@media (min-width: 768px) {
+  .cajaNone {
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    border-radius: 5%;
+    margin: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 670px;
+    width: 390px;
+  }
+
+  .background4 {
+    background-image: url(../img/FondoHarley.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .boton2 {
+    display: none;
+    left: 44%;
+    position: relative;
+    background: #00669f;
+    padding: 13px 20px;
+    color: #f3f3f3;
+    font-size: 1.2rem;
+    border-radius: 100%;
+  }
+
+  .Corazon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 2vh;
+    width: 3vw;
+  }
+
+  .foot{
+    margin: 0 0 0 1%;
+    font-size: 100%;
+    width: 60vw;
+    
+    
+  }
+  
+  .logoGit{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+  }
+  
+  .logo{
+      width: 72%;
+  
+  
+  }
+
+
+
+}
