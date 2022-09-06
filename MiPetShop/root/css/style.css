@@ -1,0 +1,295 @@
+/*HTML*/
+
+/*Mobile First: HTML GENERAL*/
+html {
+  box-sizing: border-box;
+}
+
+/*Header General*/
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 49vh;
+  width: 100vw;
+}
+
+/*Body general*/
+
+body {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*Main General*/
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Arreglos--> aca arrancar las modificaciones especificas*/
+
+/*Nav primera lista que no se muestra en vista mobolie*/
+
+.NoMobile {
+  display: none;
+}
+
+/*El encabezado de comederos que no se muestra en vista mobile*/
+
+.GrandesCom {
+  display: none;
+}
+
+/*La barra de idiomas y precio que no se ve en vista mobile*/
+
+.PrecioIdioma {
+  display: none;
+}
+
+/*Estilos PRIMERA parte de header*/
+
+/*Contenedor--> Imagen FrontCat&Dog y menu desplegable*/
+
+/*Contenedor1 header*/
+.FrontHeader {
+  display: flex;
+  justify-content: first baseline;
+  height: 6vh;
+  width: 100vw;
+  background-color: #f0a83e;
+}
+
+/*Menu desplegable*/
+.fa-bars {
+  display: flex;
+  align-self: flex-start;
+  position: relative;
+  bottom: 5%;
+  height: 12vh;
+  margin: 5% 0 100% 46%;
+  color: white;
+}
+
+/*Imagen header de front CAT&DOG*/
+.gatoyPerro {
+  display: flex;
+  align-self: center;
+  margin: 5% 0 5% 10%;
+  width: 30vw;
+  height: 2.4vh;
+}
+
+/*Estilo Header segunda parte*/
+
+/*Contenedor--> BackgroundImagen titulos y botones*/
+.ContenedorHeader {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 100vw;
+  background-image: url(../img/FonodoPrincipal.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+/*Contenedor1 header*/
+.titulosHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+/*Primer titulo Header*/
+.unPlacer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  border-radius: 6%;
+  height: 6vh;
+  width: 80vw;
+  background-color: #ffffff;
+}
+
+/*Subtitulo de header*/
+.Com {
+  width: 90vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+}
+
+/*Boton de header Comederos*/
+.BotonComederos {
+  position: relative;
+  left: 26%;
+  bottom: 3%;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: #f0a83e;
+  border-radius: 5%;
+  height: 6vh;
+  width: 36vw;
+}
+
+/*Main--> Modificaciones especificas apartir de MAIN*/
+
+/*Primera Imagen y titulo que van en el Main*/
+.CajaPatita1 {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Imagen de la primer patita*/
+
+.Patita1 {
+  display: flex;
+  align-self: center;
+  height: 9vh;
+  width: 20vw;
+}
+
+/*Titulo Producto Destacado*/
+
+.ProdcDest {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #3c2313;
+}
+
+/*Menu opciones */
+
+.Opciones {
+  margin-bottom: 7%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Imagenes--> ajustes a imagenes y sections correspondientes a main*/
+
+/*Box de los articles*/
+
+.boxarticles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Backgrounds -->  al back de los articulos*/
+
+/*Las 3 cajas principales del main*/
+.articulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+/*Box para nombre de items y precios*/
+.NombrePrecio {
+  margin: 0;
+  padding: 0;
+  width: 62vw;
+  height: 9vh;
+  background-color: #fbfaf6;
+}
+
+/*Box nombre de jugete*/
+
+.NombreJugete {
+  margin: 0 0 0 22%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  color: #3c2313;
+}
+/*Box Precio*/
+.precio {
+  margin-left: 45%;
+  margin-bottom: 32%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  color: #f0a83e;
+}
+
+/*Final de Main*/
+
+/*Primera Box que contiene el final del main*/
+
+.BoxEndingMain {
+  width: 98vw;
+  margin: 0 0 8% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Segunda box con los botnes que van al final del main*/
+
+.BotonesEndMain {
+  width: 98vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Css de las etiquetas de ingreso de Datos*/
+
+.IngreseDatos {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1% 0%;
+  background-color: #3c2313;
+  color: white;
+  border-radius: 12px;
+  width: 60vw;
+  height: 4vh;
+  font-size: 10.5px;
+}
+
+/*Apartado de los botones del main*/
+
+.BotonReset {
+  border-radius: 25px;
+  background-color: #8a8787;
+  color: white;
+  width: 42vw;
+}
+
+.BotonEnvi {
+  border-radius: 25px;
+  background-color: #f0a83e;
+  color: white;
+  width: 42vw;
+}
