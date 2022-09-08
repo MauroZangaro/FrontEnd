@@ -1,0 +1,515 @@
+/*HTML*/
+
+/*Mobile First: HTML GENERAL*/
+html {
+  box-sizing: border-box;
+}
+
+/*Header General*/
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 49vh;
+  width: 100vw;
+}
+
+/*Body general*/
+
+body {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*Main General*/
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Arreglos--> aca arrancan las modificaciones especificas*/
+
+/*Nav primera lista que no se muestra en vista mobolie*/
+
+.NoMobile {
+  display: none;
+}
+
+/*Precio e idioma no van en el mobile*/
+
+.precioIdioma{
+
+  display:none;
+}
+/*El encabezado de comederos que no se muestra en vista mobile*/
+
+.GrandesCom {
+  display: none;
+}
+
+
+/*Estilos PRIMERA parte de header*/
+
+/*Contenedor--> Imagen FrontCat&Dog y menu desplegable*/
+
+/*Contenedor1 header*/
+.FrontHeader {
+  display: flex;
+  justify-content: first baseline;
+  height: 6vh;
+  width: 100vw;
+  background-color: #f0a83e;
+}
+
+/*Menu desplegable*/
+.fa-bars {
+  display: flex;
+  align-self: flex-start;
+  position: relative;
+  bottom: 5%;
+  height: 12vh;
+  margin: 5% 0 100% 46%;
+  color: white;
+}
+
+/*Imagen header de front CAT&DOG*/
+.gatoyPerro {
+  display: flex;
+  align-self: center;
+  margin: 5% 0 5% 10%;
+  width: 30vw;
+  height: 2.4vh;
+}
+
+/*Estilo Header segunda parte*/
+
+/*Contenedor--> BackgroundImagen titulos y botones*/
+.ContenedorHeader {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 100vw;
+  background-image: url(../img/FonodoPrincipal.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+/*Contenedor1 header*/
+.titulosHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+/*Primer titulo Header*/
+.unPlacer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  border-radius: 6%;
+  height: 6vh;
+  width: 80vw;
+  background-color: #ffffff;
+}
+
+/*Subtitulo de header*/
+.Com {
+  width: 90vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+}
+
+/*Boton de header Comederos*/
+.BotonComederos {
+  position: relative;
+  left: 26%;
+  bottom: 3%;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: #f0a83e;
+  border-radius: 5%;
+  height: 6vh;
+  width: 36vw;
+}
+
+/*Main--> Modificaciones especificas apartir de MAIN*/
+
+/*Primera Imagen y titulo que van en el Main*/
+.CajaPatita1 {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Imagen de la primer patita*/
+
+.Patita1 {
+  display: flex;
+  align-self: center;
+  height: 9vh;
+  width: 20vw;
+}
+
+/*Titulo Producto Destacado*/
+
+.ProdcDest {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #3c2313;
+}
+
+/*Menu opciones */
+
+.Opciones {
+  margin-bottom: 7%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Imagenes--> ajustes a imagenes y sections correspondientes a main*/
+
+/*Box de los articles*/
+
+.boxarticles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Backgrounds -->  al back de los articulos*/
+
+/*Las 3 cajas principales del main*/
+.articulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+/*Box para nombre de items y precios*/
+.NombrePrecio {
+  margin: 0;
+  padding: 0;
+  width: 62vw;
+  height: 9vh;
+  background-color: #fbfaf6;
+}
+
+/*Box nombre de jugete*/
+
+.NombreJugete {
+  margin: 0 0 0 22%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #3c2313;
+}
+
+/*NombreJugeteHuesito*/
+
+.NombreJugeteHuesito {
+  margin: 0 0 0 30%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  color: #3c2313;
+}
+
+/*Box Precio*/
+.precio {
+  margin-left: 45%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #f0a83e;
+}
+
+/*Final de Main*/
+
+/*Primera Box que contiene el final del main*/
+
+.BoxEndingMain {
+  width: 98vw;
+  margin: 0 0 8% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Segunda box con los botnes que van al final del main*/
+
+.BotonesEndMain {
+  width: 98vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Titulo Contactanos*/
+
+.Contactanos {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #3c2313;
+  margin: 0 0 2% 0;
+}
+
+/*Css de las etiquetas de ingreso de Datos*/
+
+.IngreseDatos {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1% 0%;
+  background-color: #3c2313;
+  color: white;
+  border-radius: 12px;
+  width: 60vw;
+  height: 4vh;
+  font-size: 10.5px;
+}
+
+/*Apartado de los botones del main*/
+
+.BotonReset {
+  border-radius: 25px;
+  background-color: #8a8787;
+  color: white;
+  width: 42vw;
+}
+
+.BotonEnvi {
+  border-radius: 25px;
+  background-color: #f0a83e;
+  color: white;
+  width: 42vw;
+}
+
+/*Footer*/
+
+/*Primera section del footer*/
+
+.FootSection1 {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 15vh;
+  width: 100vw;
+  background-color: #f0a83e;
+  margin: 10% 0 0 0;
+  padding: 0;
+}
+
+/*Primera parte de la section de footer*/
+
+.mensajito {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width: 100vw;
+}
+/*Texto suscribite para mas novedades*/
+.Suscríbite {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  color: #ffffff;
+  margin: 0 20% 4% 0;
+  padding: 0;
+}
+
+/*Imagen del mensajito Blanco*/
+
+.mensajitoImagen {
+  position: relative;
+  top: 12%;
+  right: 2%;
+  margin: 0;
+  padding: 0;
+}
+
+/*Div que contiene Correo y button de footer*/
+
+.CorreoBoton {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Boton sub*/
+
+.BotonSub {
+  background: #3c2313;
+  color: #ffffff;
+  border-radius: 15px;
+  width: 100px;
+  height: 35px;
+  margin: 0 26% 0 0;
+}
+
+/*Segunda Sectinon del footer*/
+
+.FootSection2 {
+  background-color: #3c2313;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*Imagen de perro y gato del footer*/
+
+.FootCatDog {
+  margin: 2% 0 3% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Modificacion imagen de gato y perro en el footer*/
+
+.gatoyPerro2 {
+  width: 33vw;
+  height: 2vh;
+}
+
+/*box Articulos de foot*/
+
+.footarticle {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*Boxes para los titulos de footer*/
+
+.H2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 16% 0 0 0;
+  color: #ffffff;
+}
+
+.H2-2 {
+  position: relative;
+  right: 17%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 16% 0 0 0;
+  color: #ffffff;
+}
+.H2-Mail {
+  position: relative;
+  bottom: 22%;
+  left: 20%;
+  margin: 0%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 16% 0 0 0;
+  color: #ffffff;
+}
+
+/*Box para corregir el espacio entre informacion del foooter*/
+
+.BoxesInfo {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #8a8787;
+}
+
+.BoxesInfoNum {
+  margin: 0;
+  position: relative;
+  right: 15%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #8a8787;
+}
+
+.BoxesInfoCorreo {
+  margin: 0;
+  position: relative;
+  left: 20%;
+  bottom: 22%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #8a8787;
+}
+
+/*Simbolitos de imagen del footer*/
+
+.Simbolito {
+  margin: 0 2% 2% 0;
+  height: 7vh;
+  width: 15vw;
+}
+
+.SimbolitoTelefono {
+  margin: 0 5% 2% 0;
+  height: 7vh;
+  width: 15vw;
+}
+
+.SimbolitoMensaje {
+  margin: 0 5% 2% 0;
+  height: 7vh;
+  width: 15vw;
+  position: relative;
+  left: 12%;
+}
+
+/*Ultima parte del footer*/
+
+.LastFooter {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
