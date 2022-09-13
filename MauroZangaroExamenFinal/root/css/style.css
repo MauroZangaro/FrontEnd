@@ -1,0 +1,785 @@
+/*Mobile First*---> MEDIDAS USADAS: STANDAR 425 X 920 */
+/* HTML General*/
+
+html {
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+/*BODY General*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER General*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+}
+
+/*FOOTER General*/
+footer {
+  background-color: #1e1e26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*ARRELGOS--> aca arrancan las modificaciones especificas*/
+/*La primera lista dentro del NAV del HEADER que no se muestra en vista mobolie*/
+
+.No-Mobile {
+  display: none;
+}
+
+/*Boton del header que no se muestra en mobile*/
+
+.Button-Header {
+  display: none;
+}
+
+/*El grafico a mostrar en mobile y desktop son diferentes por ende ahora ocultamos el grafico de desktop*/
+
+.Imagen-Desktop {
+  display: none;
+}
+
+/*Estilos de HEADER*/
+/*Menu Hamburgesa ñam ñam*/
+
+.Menu-Hamburgesa {
+  width: 9vw;
+  height: 3vh;
+  margin: 4% 8% 1% 0;
+}
+/*Logo Manage*/
+
+.Logo-Manage {
+  margin: 6% 0 0 4%;
+  color: #242d52;
+}
+
+/*----FIN ESTILOS DEL HEADER Mobile----*/
+
+/*Sections main parte 1*/
+
+.Section-Main-1 img {
+  width: 100vw;
+  height: 35vh;
+}
+
+.Section-Main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Section-Main-1 h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #232c50;
+  margin: 0 2% 5% 2%;
+}
+
+.Section-Main-1 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin: 5% 8.5% 4% 8.5%;
+}
+
+.Section-Main-1 button {
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #8b48bf;
+  margin-bottom: 17%;
+  transition: all 1s ease;
+}
+
+.Section-Main-1 button:hover {
+  transform: scale(1.2);
+  background-color: rgb(255, 0, 242);
+}
+
+/*----FINAL PRIMERA SECTION DEL MAIN Mobile----*/
+
+/*Sections main parte 2*/
+
+.Section-Main-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section-Main-2 article {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Section-Main-2 article h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #232851;
+  text-align: center;
+}
+
+.P-Article-Section-Main-2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  color: black;
+  text-align: center;
+  padding: 2% 5.5%;
+  margin-bottom: 22%;
+}
+
+/*Articles con sus respectivos titulos pintados*/
+
+.Article-span-Main-2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 18, 7vh;
+  text-align: left;
+}
+
+.span-título {
+  background: rgba(139, 72, 191, 0.3);
+  border-radius: 50px 0px 0px 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 2%;
+  margin-left: 4%;
+}
+
+.span-número {
+  background-color: #8b48bf;
+  padding: 2.3% 5.3%;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  position: relative;
+  right: 2%;
+  margin-right: 2%;
+  color: white;
+}
+
+.P-Article-Span-Main-2 {
+  color: #b3b2b7;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.3rem;
+  text-align: justify;
+  margin: 5% 5% 5% 5%;
+}
+
+/*----FINAL SEGUNDA SECTION DEL MAIN Mobile----*/
+
+/*Sections main parte 3*/
+
+/*Articulos que no se muestran en la tercera parte*/
+
+.Seneka {
+  display: none;
+}
+.Sthepen {
+  display: none;
+}
+
+/*Arreglos main section parte 3*/
+
+.Section-Main-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Section-Main-3 div h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #242e53;
+  margin: 22% 0 22% 0;
+}
+
+/*Caja de Ali la el unico article a exhibir en mobile*/
+.Ali {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: top;
+  background-color: #fafafa;
+  margin: 12% 4% 4% 4%;
+  padding: 0;
+}
+
+/*Imagen de Ali*/
+.Section-Main-3 div img {
+  position: relative;
+  bottom: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.Section-Main-3 article h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #3f4868;
+  margin: 0;
+  position: relative;
+  bottom: 12px;
+}
+
+.Section-Main-3 p {
+  font-style: normal;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #b9b9c1;
+  text-align: center;
+  margin: 4% 9% 5% 5%;
+  position: relative;
+  bottom: 4px;
+}
+
+/*Boton Final de la segunda parte del main*/
+.Section-Main-3 button {
+  background-color: #8b48bf;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 4vh;
+  width: 30vw;
+  margin: 32% 0 32% 0;
+  transition: all 1s ease;
+}
+
+.Section-Main-3 button:hover {
+  transform: scale(1.2);
+  background-color: rgb(255, 0, 242);
+}
+
+/*----FINAL TERCERTA SECTION DEL MAIN Mobile----*/
+
+/*Sections main parte 4*/
+
+/*Titulo Principal section 4*/
+.Section-Main-4 {
+  background-color: #8b48bf;
+  height: 32vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.Section-Main-4 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #ffffff;
+  width: 75vw;
+  height: 13vh;
+}
+
+/*Boton final de la section 4*/
+
+.Section-Main-4 button {
+  background-color: #ffffff;
+  color: #8b48bf;
+  border-radius: 50px;
+  height: 4vh;
+  width: 30vw;
+  transition: all 1s ease;
+}
+
+.Section-Main-4 button:hover {
+  transform: scale(1.2);
+  background-color: rgb(255, 0, 242);
+}
+
+/*----FINAL CUARTA SECTION DEL MAIN Mobile----*/
+/*----FINAL DEL MAIN Mobile----*/
+
+/*FOOTER*/
+
+/*Section Footer parte 1*/
+/*Form con boton*/
+.footer-Section-1 {
+  width: 90vw;
+  text-align: right;
+  flex-direction: row;
+  margin-top: 12%;
+}
+
+.footer-Section-1 input {
+  background-color: rgb(249, 249, 249);
+  border: none;
+  padding: 4% 28% 4% 6%;
+  border-radius: 30px;
+  font-size: 0.7rem;
+}
+
+.footer-Section-1 button {
+  background-color: #8b48bf;
+  border-radius: 50px;
+  padding: 2% 5%;
+  color: #ffffff;
+  transition: all 1s ease;
+}
+
+.Section-Main-4 button:hover {
+  transform: scale(1.2);
+  background-color: rgb(255, 0, 242);
+}
+
+.fa-brands{
+  color:white;
+
+}
+
+/*----FINAL PRIMERA SECTION DEL FOOTER Mobile----*/
+
+/*Section Footer parte 2*/
+
+/*Los navs*/
+
+.footer-Section-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 90vw;
+}
+
+.footer-Section-2 nav ul {
+  font-size: 0.9rem;
+  list-style-type: none;
+  line-height: 30px;
+}
+
+
+.footer-Section-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*----FINAL SEGUNDA SECTION DEL FOOTER Mobile----*/
+
+/*Section Footer parte 3*/
+
+.footer-Section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+/*Logos redireccionables*/
+
+.footer-Section-Logos {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 2% 5% 2%;
+}
+
+/*logo Manage Footer*/
+
+.Logo-Manage-Footer {
+  margin: 5% 0 5% 0;
+}
+
+/*----FINAL TERCERA SECTION DEL FOOTER Mobile----*/
+
+/*Section Footer parte 4*/
+
+.footer-Section-4 {
+  margin-bottom: 12%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #8c8c94;
+}
+
+/*----FINAL CUARTA SECTION DEL FOOTER Mobile----*/
+
+/*------------->FINAL HTML MOBILE<----------------*/
+
+/*-------------->RESPONSIVE DISEÑO PARA ESCRITORIO 1920PX x 1080PX<---------------*/
+
+@media (min-width: 1250px) {
+  /*Modififaciones generales*/
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 92vw;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*mostramos la primera lista que va en el header en la version desktop*/
+
+  .No-Mobile {
+    display: flex;
+  }
+
+  /*Quitamos la imagen grafico Mobile y mostramos el grafico desktop*/
+
+  .Imagen-Mobile {
+    display: none;
+  }
+
+  .Imagen-Desktop {
+    display: flex;
+  }
+  header nav ul {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  header nav ul li a {
+    color: #242e52;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  header nav ul li a:hover {
+    color: rgb(143, 148, 167);
+  }
+
+  /*Ocultamos el menu de hamburgesa*/
+  .Menu-Hamburgesa {
+    display: none;
+  }
+
+  /*Mostramos el boton que ira en le header*/
+
+  .Button-Header {
+    display: flex;
+  }
+
+  header button {
+    background-color: #8b48bf;
+    color: #ffffff;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    transition: all 1s ease;
+  }
+
+  header button:hover {
+    transform: scale(1.2);
+    background-color: rgb(255, 0, 242);
+  }
+
+  /*-----FINAL HEADER DESKTOP--------*/
+
+  /*------------BODY----------- DESKTOP----------------*/
+
+  /*MAIN DESKTOP*/
+
+  /*Section main parte 1*/
+  .Section-Main-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    height: 60vh;
+    width: 84vw;
+  }
+
+  .Section-Main-1 div img {
+    width: 29vw;
+    height: 45vh;
+    margin-left: 32%;
+    margin-bottom: 9%;
+  }
+
+  .Section-Main-1-div {
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    width: 30vw;
+    gap:20px;
+  }
+
+  .Section-Main-1-div h1{
+    margin:0;
+  }
+
+
+  .Section-Main-1-div p {
+    margin: 0;
+    width: 320px;
+  }
+
+  /*Final section main parte 1*/
+
+  /*Section main parte 2*/
+
+  .Section-Main-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Section-Main-2 article h2 {
+    font-size: 40px;
+    text-align: left;
+    font-size: 2rem;
+    margin: 0 0 4% 30%;
+    padding: 0;
+    width: 75%;
+  }
+
+  .P-Article-Section-Main-2 {
+    width: 40%;
+    font-size: 11px;
+    text-align: left;
+    margin: 0 0 55% 30%;
+    padding: 0;
+  }
+
+  /*Articles y spans*/
+
+  .span-título {
+    background-color: white;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .span-número {
+    padding: 1.2% 3%;
+    margin: 0;
+  }
+
+  .Article-Desktop {
+    margin: 0 0 4%;
+    padding: 2% 5.5%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .P-Article-Span-Main-2 {
+    width: 52%;
+    margin: 0 0 5% 10.5%;
+  }
+
+  /*Final section main parte 2*/
+
+  /*Section Main parte 3*/
+
+  /*Titulo*/
+
+  .Titulo-Section-3 {
+    margin-right: 3%;
+  }
+
+  /*Mostramos los perfiles faltantes y los organizamos*/
+
+  .Boxes-Desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50vh;
+    width: 95vw;
+    gap: 15px;
+  }
+
+  .Ali {
+    margin: 0;
+    height: 30vh;
+    width: 30vw;
+  }
+
+  .Seneka {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: top;
+    background-color: #fafafa;
+    height: 30vh;
+    width: 30vw;
+  }
+
+  .Sthepen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: top;
+    background-color: #fafafa;
+    height: 30vh;
+    width: 30vw;
+  }
+
+  .Imagen-Seneka {
+    position: relative;
+    bottom: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Imagen-Sthepen {
+    position: relative;
+    bottom: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*Boton de section 3*/
+
+  .Section-Main-3 button {
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    transition: all 1s ease;
+  }
+
+  /*Le damos un poco de estilo la boton*/
+  .Section-Main-3 button:hover {
+    transform: scale(1.2);
+    background-color: rgb(255, 0, 242);
+  }
+
+  .Boton-section-3 {
+    margin-right: 3%;
+  }
+
+  /*Section Main 4*/
+
+  .Section-Main-4 {
+    width: 99vw;
+    height: 27vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .Section-Main-4 h2 {
+    width: 30vw;
+    text-align: left;
+  }
+
+  .Section-Main-4 button {
+    height: 40px;
+    width: 120px;
+    transition: all 1s ease;
+  }
+
+  .Section-Main-4 button:hover {
+    transform: scale(1.2);
+    background-color: rgb(151, 24, 151);
+    color: white;
+  }
+
+  /*---------------->FINAL DEL MAIN<----------------*/
+  /*FOOTER*/
+
+  footer {
+    height: 28vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  /*Form y boton estilo*/
+  .footer-Section-1 {
+    width: 20vw;
+    text-align: center;
+    position: relative;
+    bottom: 62%;
+    right: 7%;
+  }
+
+  .footer-Section-1 input {
+    padding: 4% 4.5%;
+  }
+
+  .footer-Section-1 Button {
+    transition: all 1s ease;
+  }
+
+  .footer-Section-1 Button:hover {
+    transform: scale(1.2);
+    background-color: rgb(255, 0, 242);
+  }
+
+  /*Lista con links de la pagina*/
+
+  .footer-Section-2 {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 8%;
+  }
+
+  .footer-Section-2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /*Links facebook, youtube etc */
+
+  .footer-Section-3 {
+    width: 15vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    right: 6%;
+  }
+
+  .fa-brands{
+    color:white;
+
+  }
+
+  .footer-Section-Logos {
+    width: 11vw;
+    margin-top: 12%;
+  }
+
+  /*Derechos reservados */
+
+
+  .footer-Section-4 {
+    position: relative;
+    left: 72%;
+    top: 60%;
+  }
+}
+
+
+/*--------------->FINAL DE HTML DESKTOP*<------------------/
